@@ -1,6 +1,6 @@
 public class Exp7_a 
 {
-    static int count=0;
+    static int count=0; //here writing static is neccessary else, everytime we create a new object the value of count will be reset to 0,and give us final output as 1
     Exp7_a()
     {
         count++;
