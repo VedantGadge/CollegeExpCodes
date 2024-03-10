@@ -1,4 +1,3 @@
-//Exp6_a
 import java.util.*;
 public class Exp6_a 
 {
