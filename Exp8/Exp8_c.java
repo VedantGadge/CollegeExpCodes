@@ -1,5 +1,3 @@
-//Not sure whether to ask the user first whose data to enter n call its respective class's object first.
-//Also what sort of data will be inputed in 'code' variable.
 import java.util.*;
 class Staff
 {
@@ -78,13 +76,19 @@ class Regular extends Typist
         name = sc.nextLine();
         System.out.print("Enter the salary: ");
         sal = sc.nextInt();
+        System.out.print("Enter the typing speed in wpm: ");
+        speed = sc.nextFloat();
+        System.out.print("Enter the experience in years: ");
+        exp = sc.nextFloat();
         System.out.println();
     }
     void display()
     {
         System.out.println("Code: "+code);
         System.out.println("Name: "+name);
-        System.out.println("Salary of the Typist: "+sal);
+        System.out.println("Salary: "+sal);
+        System.out.println("The typing speed: "+speed+ " wpm");
+        System.out.println("Yrs. of experience: "+exp);
         System.out.println();
     }
 }
@@ -99,15 +103,21 @@ class Casual extends Typist
         code = sc.nextLine();
         System.out.print("Enter the name: ");
         name = sc.nextLine();
-        System.out.print("Enter the salary: ");
+        System.out.print("Enter the daily wages: ");
         daily_wages = sc.nextInt();
+        System.out.print("Enter the typing speed in wpm: ");
+        speed = sc.nextFloat();
+        System.out.print("Enter the experience in years: ");
+        exp = sc.nextFloat();
         System.out.println();
     }
     void display()
     {
         System.out.println("Code: "+code);
         System.out.println("Name: "+name);
-        System.out.println("Salary of the Typist: "+daily_wages);
+        System.out.println("Daily wages of: "+daily_wages);
+        System.out.println("The typing speed: "+speed+ " wpm");
+        System.out.println("Yrs. of experience: "+exp);
         System.out.println();
     }
 }
