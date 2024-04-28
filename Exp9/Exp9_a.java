@@ -31,6 +31,6 @@ class Exp9_a implements Interface1
         System.out.print("Enter the string to reverse: ");
         str=sc.nextLine();
         Exp9_a obj = new Exp9_a(str); //We need to use and pass the str value through an object, else it gives static error.
-        System.out.println("The reversed string is: "+obj.reverse());
+        System.out.println("The reversed string is: "+obj.reversal());
     }
 }
