@@ -2,7 +2,7 @@ import java.util.*;
 
 interface Interface1 
 {
-    String reverse();
+    String reversal();
 }
 
 class Exp9_a implements Interface1 
@@ -13,7 +13,7 @@ class Exp9_a implements Interface1
     {
         this.str = str;
     }
-    public String reverse()
+    public String reversal()
     {
         String rev="";
         char temp;
